@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SampleListViewApp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <ListView
+                HeightRequest="150"
+                HorizontalOptions="Center">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Database1</x:String>
+                        <x:String>Database2</x:String>
+                        <x:String>Database3</x:String>
+                        <x:String>Database4</x:String>
+                        <x:String>Database5</x:String>
+                        <x:String>Database6</x:String>
+                        <x:String>Database7</x:String>
+                        <x:String>Database8</x:String>
+                        <x:String>Database9</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
